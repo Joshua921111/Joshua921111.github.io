@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人作品集</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">作品集</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">作品集</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">聯絡方式</a></li>
+            <li class="nav-item"><a class="nav-link" href="slideshow.html">圖片幻燈片</a></li>
+            <li class="nav-item"><a class="nav-link" href="models.html">Teachable Machine (TM) </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container mt-3 text-center">
+    <img src="https://cdn.discordapp.com/attachments/852008221580984370/1376192491728146564/IMG_6144.jpg?ex=68346ea2&is=68331d22&hm=cce2d356cfc612a8dca61dfe89940dc9325ec9bca1cc554e59f06950bf244f4f&" alt="Personal Photo"
+      class="img-fluid rounded-circle" style="max-width: 200px;">
+  </div>
+
+  <main class="container mt-5">
+    <section id="about" class="section py-5">
+      <h1>關於我</h1>
+      <p>
+        許庭榛<br>
+        在學大學生<br>
+        <a href="https://www.instagram.com/hotdog_n_sauce/" target="_blank">社群連結</a><br>
+
+        最高學歷: 國立台灣科技大學-企業管理系-學士<br>
+        興趣: 音樂/語言/心理學<br>
+        就學經歷: 高中社團社長, 大學社團財務長, 音樂人聲錄音, 歌曲編制, 志工等等<br>
+        現在: 臺灣科技大學企業管理系學生
+      </p>
+    </section>
+
+    <section id="projects" class="section py-5">
+      <h2>作品集</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Gemma3 多模態LLM應用範例</h3>
+              <img src="https://cdn.discordapp.com/attachments/852008221580984370/1376203610605486301/image.png?ex=683478fd&is=6833277d&hm=8cbb6773a22b43b38cfba911a639db4134016cb1f59bdb5f6a66612d18573cea&" alt="Future Unbounded" class="img-fluid mb-3">
+              <p class="card-text">
+                透過此模型可以分析圖片狀況，讓視障者也可以輕易了解圖片的模樣。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Google Mediapipe應用</h3>
+              <img src="https://cdn.discordapp.com/attachments/852008221580984370/1376203063282634802/image.png?ex=6834787a&is=683326fa&hm=04be0b4569bc4e9ffd9083143bec4caacd6702d740d5e24f0b17beb00d46fc99&" alt="Future Unbounded" class="img-fluid mb-3">
+              <p class="card-text">利用Google Mediapipe來瞭解幫助分解影片動作，更可以清楚知道每個動作的細節以便分析。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Gemma3 多模態LLM應用範例</h3>
+              <img src="https://cdn.discordapp.com/attachments/852008221580984370/1376203271102009374/image.png?ex=683478ac&is=6833272c&hm=2ea9a939ad55fc6c17f4afea70fd0c048ec4fa4909d666c5a67da14c7815cdc8&" alt="Student Project" class="img-fluid mb-3">
+              <p class="card-text">同樣是使用Google Mediapipe，不同於此應用是來用於分析臉部，讓臉部的狀態可以用線條來呈現，可以成為繪畫工具或是建模工具。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section py-5">
+      <h2>聯絡方式</h2>
+      <p>
+        行動電話: (09) -0313-0257<br>
+        E-mail: b11108059@gapps.ntust.edu.tw
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 許庭榛</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
